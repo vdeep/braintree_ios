@@ -1739,6 +1739,11 @@
 		B61F677E1CE4C20F0051A3BD /* BTConfiguration+DataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTConfiguration+DataCollector.h"; sourceTree = "<group>"; };
 		B61F677F1CE4C20F0051A3BD /* BTConfiguration+DataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BTConfiguration+DataCollector.m"; path = "Public/BTConfiguration+DataCollector.m"; sourceTree = "<group>"; };
 		B67F98391D762177007C1903 /* BTMacroTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMacroTests.m; sourceTree = "<group>"; };
+		C971CF611E0DAE1C0086255F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/Three-D-Secure.strings"; sourceTree = "<group>"; };
+		C971CF621E0DAE1C0086255F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/Drop-In.strings"; sourceTree = "<group>"; };
+		C971CF631E0DAE1C0086255F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/UI.strings"; sourceTree = "<group>"; };
+		C971CF641E0DAE1C0086255F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C971CF651E0DAE1C0086255F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/Main.strings"; sourceTree = "<group>"; };
 		D242087B7E38C2B838C8866E /* libPods-Tests-IntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-IntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5477E9CCBB2B1B37661129D /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D9AFC14FFCF2029AE39FA3BA /* Pods-Tests-IntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-IntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-IntegrationTests/Pods-Tests-IntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -3957,6 +3962,7 @@
 				sv,
 				tr,
 				"zh-Hans",
+				"hu-HU",
 			);
 			mainGroup = A75DA343192138F000D997A2;
 			productRefGroup = A75DA3521921394200D997A2 /* Products */;
@@ -5129,6 +5135,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A76B1A071B79708A00452CFA /* en */,
+				C971CF641E0DAE1C0086255F /* hu-HU */,
 			);
 			name = InfoPlist.strings;
 			path = .;
@@ -5138,6 +5145,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A76B1A091B79708A00452CFA /* en */,
+				C971CF651E0DAE1C0086255F /* hu-HU */,
 			);
 			name = Main.strings;
 			path = .;
@@ -5167,6 +5175,7 @@
 				A773451C1B7A93D00083EC8D /* sv */,
 				A773451D1B7A93D00083EC8D /* tr */,
 				A773451E1B7A93D00083EC8D /* zh-Hans */,
+				C971CF631E0DAE1C0086255F /* hu-HU */,
 			);
 			name = UI.strings;
 			path = .;
@@ -5196,6 +5205,7 @@
 				A773460F1B7A9E340083EC8D /* sv */,
 				A77346101B7A9E340083EC8D /* tr */,
 				A77346111B7A9E340083EC8D /* zh-Hans */,
+				C971CF621E0DAE1C0086255F /* hu-HU */,
 			);
 			name = "Drop-In.strings";
 			path = .;
@@ -5225,6 +5235,7 @@
 				A79AFA5D1B56F823007B1DF1 /* sv */,
 				A79AFA5E1B56F823007B1DF1 /* tr */,
 				A79AFA5F1B56F823007B1DF1 /* zh-Hans */,
+				C971CF611E0DAE1C0086255F /* hu-HU */,
 			);
 			name = "Three-D-Secure.strings";
 			path = .;
